@@ -3,7 +3,7 @@ export default function Navbar({elements}) {
     return(
         <nav>
             {elements.map((p, i) => 
-                <p>{p.category}</p>
+                <a>{p.category}</a>
             )}
         </nav>
     )
