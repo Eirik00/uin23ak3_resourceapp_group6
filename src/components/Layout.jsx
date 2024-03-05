@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 
 export default function Layout({navElements}) {
 
+    console.log(navElements)
     return(
         <>
         <header>

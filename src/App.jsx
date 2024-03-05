@@ -8,7 +8,7 @@ import './css/main.css'
 function App() {
 
   return (
-    <Layout Navbar={resources}>
+    <Layout navElements={resources}>
 
     </Layout>
   )
