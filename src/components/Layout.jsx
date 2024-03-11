@@ -7,15 +7,6 @@ export default function Layout({navElements, children, setPageInfo}) {
     console.log(navElements)
     return(
         <>
-<<<<<<< Updated upstream
-        <header>
-            <Navbar elements={navElements}/>
-        </header>
-        <main>
-            <Infocard cardElement={cardElement} />
-        </main>
-        <footer>Footer</footer>
-=======
             <header>
                 <Navbar elements={navElements} setPageInfo={setPageInfo}/>
             </header>
@@ -23,7 +14,6 @@ export default function Layout({navElements, children, setPageInfo}) {
                 {children}
             </main>
             <footer>Footer</footer>
->>>>>>> Stashed changes
         </>
     )
 }
