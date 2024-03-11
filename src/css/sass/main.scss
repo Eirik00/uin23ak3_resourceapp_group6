@@ -1,6 +1,7 @@
 //npm run css:watch
 
 @import "nav";
+@import "layout";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 :root {
@@ -8,7 +9,7 @@
     --blue: #58699D;
     --light-grey: #E1E5EE;
     --white: #fff;
-    --black: #000;
+    --black: #001;
 }
 
 body {
@@ -16,9 +17,11 @@ body {
     background-color: var(--light-grey);
 
     font-family: 'Montserrat', sans-serif;
+
+    main {
+        padding: 4rem;
+        background-color: var(--white);
+    }
 }
 
-main {
-    padding: 4rem;
-    background-color: var(--white);
-}
+
