@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 
-export default function Layout({navElements}) {
+export default function Layout({navElements, children, setPageInfo}) {
 
     return(
         <>
+<<<<<<< Updated upstream
         <header>
             <Navbar elements={navElements}/>
         </header>
@@ -16,6 +17,15 @@ export default function Layout({navElements}) {
             </ul>
         </main>
         <footer>Footer</footer>
+=======
+            <header>
+                <Navbar elements={navElements} setPageInfo={setPageInfo}/>
+            </header>
+            <main>
+                {children}
+            </main>
+            <footer>Footer</footer>
+>>>>>>> Stashed changes
         </>
     )
 }
