@@ -1,10 +1,4 @@
-<<<<<<< Updated upstream
-export default function Navbar({elements}) {
-    return(
-        <ul>
 
-        </ul>
-=======
 import { Link } from "react-router-dom"
 
 export default function Navbar({elements, setPageInfo}) {
@@ -15,6 +9,5 @@ export default function Navbar({elements, setPageInfo}) {
                 <Link to={p.category} key={i} onClick={()=>setPageInfo(p)}>{p.category}</Link>
             )}
         </nav>
->>>>>>> Stashed changes
     )
 }

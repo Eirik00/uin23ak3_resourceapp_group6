@@ -1,0 +1,25 @@
+@media(max-width: 1546px){
+    nav {
+        gap: .3vw;
+    }
+}
+
+@media(max-width: 1000px){
+    nav a {
+        font-size: 1rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width: 660){
+    nav a {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 560px){
+    nav a {
+        font-size: 0.7rem;
+    }
+}
