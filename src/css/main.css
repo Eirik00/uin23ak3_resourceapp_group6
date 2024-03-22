@@ -14,9 +14,9 @@ nav a {
   font-weight: 600;
   font-size: 1.5rem;
   cursor: pointer;
+  text-decoration: none;
 }
-
-.selected {
+nav a:hover {
   color: var(--black);
   background-color: var(--white);
 }
@@ -33,12 +33,7 @@ nav a {
     padding-right: 10px;
   }
 }
-@media (max-width: 660) {
-  nav a {
-    font-size: 1rem;
-  }
-}
-@media (max-width: 560px) {
+@media (max-width: 660px) {
   nav a {
     font-size: 0.7rem;
   }
@@ -49,6 +44,7 @@ nav a {
   --light-grey: #E1E5EE;
   --white: #fff;
   --black: #001;
+  min-width: 570px;
 }
 
 body {
