@@ -13,7 +13,7 @@ export default function Layout({navElements, children, setPageInfo}) {
             <main>
                 {children}
             </main>
-            <footer>Footer</footer>
+            <footer></footer>
         </>
     )
 }
